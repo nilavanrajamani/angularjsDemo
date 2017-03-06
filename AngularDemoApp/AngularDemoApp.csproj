@@ -95,12 +95,14 @@
     <Content Include="DemoApp\app\EditProfileFiles\Original\EditProfile.html" />
     <Content Include="DemoApp\app\EditProfileFiles\Original\EditProfileController.js" />
     <Content Include="DemoApp\app\EditProfileFiles\Original\GravatarUrlBuilder.js" />
+    <Content Include="DemoApp\app\EventDetails.html" />
     <Content Include="DemoApp\app\favicon.ico" />
     <Content Include="DemoApp\app\img\angularjs-logo.png" />
     <Content Include="DemoApp\app\img\glyphicons-halflings-white.png" />
     <Content Include="DemoApp\app\img\glyphicons-halflings.png" />
     <Content Include="DemoApp\app\img\profile.jpg" />
     <Content Include="DemoApp\app\js\app.js" />
+    <Content Include="DemoApp\app\js\controllers\EventController.js" />
     <Content Include="DemoApp\app\js\directives.js" />
     <Content Include="DemoApp\app\js\filters.js" />
     <Content Include="DemoApp\app\lib\angular\angular-resource.js" />
@@ -125,7 +127,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="DemoApp\app\js\controllers\" />
     <Folder Include="DemoApp\app\js\services\" />
     <Folder Include="DemoApp\test\e2e\" />
     <Folder Include="DemoApp\test\unit\" />
