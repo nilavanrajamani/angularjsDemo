@@ -102,6 +102,7 @@
     <Content Include="DemoApp\app\img\glyphicons-halflings.png" />
     <Content Include="DemoApp\app\img\profile.jpg" />
     <Content Include="DemoApp\app\js\app.js" />
+    <Content Include="DemoApp\app\js\controllers\EditEventController.js" />
     <Content Include="DemoApp\app\js\controllers\EventController.js" />
     <Content Include="DemoApp\app\js\directives.js" />
     <Content Include="DemoApp\app\js\filters.js" />
@@ -117,6 +118,7 @@
     <Content Include="DemoApp\app\lib\bootstrap.min.js" />
     <Content Include="DemoApp\app\lib\jquery.min.js" />
     <Content Include="DemoApp\app\lib\underscore-1.4.4.min.js" />
+    <Content Include="DemoApp\app\NewEvent.html" />
     <Content Include="DemoApp\scripts\web-server.js" />
     <Content Include="DemoApp\test\karma.conf.js" />
     <Content Include="DemoApp\test\lib\angular-mocks.js" />
