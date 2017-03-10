@@ -66,6 +66,9 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="DemoApp\app\EditProfile.html" />
+    <Content Include="DemoApp\app\js\controllers\EditProfileController.js" />
+    <Content Include="DemoApp\app\js\GravatarUrlBuilder.js" />
     <Content Include="packages.config" />
     <Content Include="DemoApp\package.json" />
     <Content Include="DemoApp\README.md" />
