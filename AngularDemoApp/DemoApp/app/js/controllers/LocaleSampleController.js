@@ -1,0 +1,12 @@
+'use strict';
+
+eventsApp.controller('LocaleSampleController',
+    function LocaleSampleController($scope, $locale, $exceptionHandler) {
+
+        console.log($locale);
+        $scope.myDate = Date.now();
+        $scope.myFormat = $locale.DATETIME_FORMATS.shortDate;
+
+        throw { message: 'error message' };
+    }
+);

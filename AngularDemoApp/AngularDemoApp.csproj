@@ -66,10 +66,25 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="DemoApp\app\CookieStoreSample.html" />
+    <Content Include="DemoApp\app\FilterSample.html" />
+    <Content Include="DemoApp\app\js\controllers\CookieStoreSampleController.js" />
+    <Content Include="DemoApp\app\js\controllers\FilterSampleController.js" />
+    <Content Include="DemoApp\app\js\controllers\LocaleSampleController.js" />
+    <Content Include="DemoApp\app\CacheSample.html" />
     <Content Include="DemoApp\app\EditProfile.html" />
+    <Content Include="DemoApp\app\CompileSample.html" />
+    <Content Include="DemoApp\app\js\controllers\CacheSampleController.js" />
+    <Content Include="DemoApp\app\js\controllers\CompileSampleController.js" />
     <Content Include="DemoApp\app\js\controllers\EditProfileController.js" />
+    <Content Include="DemoApp\app\js\controllers\TimeoutSampleController.js" />
     <Content Include="DemoApp\app\js\GravatarUrlBuilder.js" />
+    <Content Include="DemoApp\app\js\services\ExceptionHandler.js" />
     <Content Include="DemoApp\app\js\services\GravatarUrlBuilder.js" />
+    <Content Include="DemoApp\app\lib\angular\angular-cookies.js" />
+    <Content Include="DemoApp\app\lib\angular\angular-locale_es.js" />
+    <Content Include="DemoApp\app\LocaleSample.html" />
+    <Content Include="DemoApp\app\TimeoutSample.html" />
     <Content Include="packages.config" />
     <Content Include="DemoApp\package.json" />
     <Content Include="DemoApp\README.md" />
@@ -134,6 +149,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="bin\" />
     <Folder Include="DemoApp\test\e2e\" />
     <Folder Include="DemoApp\test\unit\" />
   </ItemGroup>
