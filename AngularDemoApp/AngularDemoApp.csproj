@@ -68,7 +68,9 @@
   <ItemGroup>
     <Content Include="DemoApp\app\CookieStoreSample.html" />
     <Content Include="DemoApp\app\FilterSample.html" />
+    <Content Include="DemoApp\app\index.html" />
     <Content Include="DemoApp\app\js\controllers\CookieStoreSampleController.js" />
+    <Content Include="DemoApp\app\js\controllers\EventListController.js" />
     <Content Include="DemoApp\app\js\controllers\FilterSampleController.js" />
     <Content Include="DemoApp\app\js\controllers\LocaleSampleController.js" />
     <Content Include="DemoApp\app\CacheSample.html" />
@@ -84,6 +86,7 @@
     <Content Include="DemoApp\app\lib\angular\angular-cookies.js" />
     <Content Include="DemoApp\app\lib\angular\angular-locale_es.js" />
     <Content Include="DemoApp\app\LocaleSample.html" />
+    <Content Include="DemoApp\app\templates\EventList.html" />
     <Content Include="DemoApp\app\TimeoutSample.html" />
     <Content Include="packages.config" />
     <Content Include="DemoApp\package.json" />
@@ -114,7 +117,7 @@
     <Content Include="DemoApp\app\EditProfileFiles\Original\EditProfile.html" />
     <Content Include="DemoApp\app\EditProfileFiles\Original\EditProfileController.js" />
     <Content Include="DemoApp\app\EditProfileFiles\Original\GravatarUrlBuilder.js" />
-    <Content Include="DemoApp\app\EventDetails.html" />
+    <Content Include="DemoApp\app\templates\EventDetails.html" />
     <Content Include="DemoApp\app\favicon.ico" />
     <Content Include="DemoApp\app\img\angularjs-logo.png" />
     <Content Include="DemoApp\app\img\glyphicons-halflings-white.png" />
@@ -138,7 +141,7 @@
     <Content Include="DemoApp\app\lib\bootstrap.min.js" />
     <Content Include="DemoApp\app\lib\jquery.min.js" />
     <Content Include="DemoApp\app\lib\underscore-1.4.4.min.js" />
-    <Content Include="DemoApp\app\NewEvent.html" />
+    <Content Include="DemoApp\app\templates\NewEvent.html" />
     <Content Include="DemoApp\scripts\web-server.js" />
     <Content Include="DemoApp\test\karma.conf.js" />
     <Content Include="DemoApp\test\lib\angular-mocks.js" />
