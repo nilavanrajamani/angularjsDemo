@@ -79,6 +79,7 @@
     <Content Include="DemoApp\app\js\controllers\CacheSampleController.js" />
     <Content Include="DemoApp\app\js\controllers\CompileSampleController.js" />
     <Content Include="DemoApp\app\js\controllers\EditProfileController.js" />
+    <Content Include="DemoApp\app\js\controllers\MainMenuController.js" />
     <Content Include="DemoApp\app\js\controllers\TimeoutSampleController.js" />
     <Content Include="DemoApp\app\js\GravatarUrlBuilder.js" />
     <Content Include="DemoApp\app\js\services\ExceptionHandler.js" />

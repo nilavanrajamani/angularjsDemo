@@ -17,15 +17,17 @@ eventsApp.controller('EventController', function ($scope, eventData, $log, $anch
     //        $log.warn(data, status, headers(), config);
     //    });
 
-    eventData.getEvent($routeParams.eventId)
-        .$promise
-        .then(function (data) {
-            $scope.event = data;
-            console.log(data);
-        })
-        .catch(function (data) {
-            console.log(data);
-        });
+    //eventData.getEvent($routeParams.eventId)
+    //    .$promise
+    //    .then(function (data) {
+    //        $scope.event = data;
+    //        console.log(data);
+    //    })
+    //    .catch(function (data) {
+    //        console.log(data);
+    //    });
+
+    $scope.event = $route.current.locals.event;
 
     $scope.upVoteSession = function (session) {
         session.upVoteCount++;
