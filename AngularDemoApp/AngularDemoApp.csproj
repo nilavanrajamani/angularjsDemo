@@ -88,6 +88,7 @@
     <Content Include="DemoApp\app\LocaleSample.html" />
     <Content Include="DemoApp\app\templates\EventList.html" />
     <Content Include="DemoApp\app\TimeoutSample.html" />
+    <Content Include="miscellanous.txt" />
     <Content Include="packages.config" />
     <Content Include="DemoApp\package.json" />
     <Content Include="DemoApp\README.md" />

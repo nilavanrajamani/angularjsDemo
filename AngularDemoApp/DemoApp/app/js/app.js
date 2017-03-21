@@ -5,7 +5,7 @@ var eventsApp = angular.module('eventsApp', ['ngSanitize', 'ngResource', 'ngCook
 
 //Routing Creation
 
-eventsApp = eventsApp.config(function ($routeProvider) {
+eventsApp = eventsApp.config(function ($routeProvider, $locationProvider) {
     $routeProvider.when('/newEvent',
         {
             templateUrl: 'templates/NewEvent.html',
@@ -18,9 +18,12 @@ eventsApp = eventsApp.config(function ($routeProvider) {
         });
     $routeProvider.when('/event/:eventId',
     {
+        foo: 'bar',
         templateUrl: 'templates/EventDetails.html',
         controller: 'EventController'
     });
+    //$routeProvider.otherwise({ redirectTo: '/events' });
+    $locationProvider.html5Mode(true);
 });
 
 /*Services Creation*/

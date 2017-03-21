@@ -13,9 +13,9 @@ eventsApp.factory('eventData', function ($resource) {
                                   }
                             });
     return {
-        getEvent: function () {
+        getEvent: function (eventId) {
             // return $http({ method: 'GET', url:  });
-            return resource.get({ id: 1 });
+            return resource.get({ id: eventId });
         },
         save: function (event) {
             event.id = 999;

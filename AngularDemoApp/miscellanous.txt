@@ -1,0 +1,3 @@
+﻿.*\.html|css/|img/|js/|data/|lib/|templates/|favicon.ico
+
+/index.html
