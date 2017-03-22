@@ -5,25 +5,7 @@
     <hr />
     <ul class="thumbnails">
         <li ng-repeat="event in events|orderBy:sortorder" class="span5">
-            <a href="event/{{event.id}}">
-                <div class="well-title hoverwell">
-                    <div class="row">
-                        <h2>{{event.name}}</h2>
-                    </div>
-                    <div class="row">
-                        Date:{{event.date}}
-                    </div>
-                    <div class="row">
-                        Time:{{event.time}}
-                    </div>
-                    <div class="row">
-                        Location:{{event.location.address}}
-                    </div>
-                    <div class="row">
-                        &nbsp;{{event.location.city}},{{event.location.province}}
-                    </div>
-                </div>
-            </a>
+            <event-thumbnail myevent="event"></event-thumbnail>
         </li>
     </ul>
 </div>

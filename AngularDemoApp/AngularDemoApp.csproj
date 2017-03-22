@@ -82,13 +82,15 @@
     <Content Include="DemoApp\app\js\controllers\MainMenuController.js" />
     <Content Include="DemoApp\app\js\controllers\SampleDirectiveController.js" />
     <Content Include="DemoApp\app\js\controllers\TimeoutSampleController.js" />
+    <Content Include="DemoApp\app\js\directives\eventThumbnail.js" />
     <Content Include="DemoApp\app\js\GravatarUrlBuilder.js" />
     <Content Include="DemoApp\app\js\services\ExceptionHandler.js" />
     <Content Include="DemoApp\app\js\services\GravatarUrlBuilder.js" />
     <Content Include="DemoApp\app\lib\angular\angular-cookies.js" />
     <Content Include="DemoApp\app\lib\angular\angular-locale_es.js" />
     <Content Include="DemoApp\app\LocaleSample.html" />
-    <Content Include="DemoApp\app\SampleDirective.html" />
+    <Content Include="DemoApp\app\templates\directives\EventThumbnail.html" />
+    <Content Include="DemoApp\app\templates\SampleDirective.html" />
     <Content Include="DemoApp\app\templates\EventList.html" />
     <Content Include="DemoApp\app\TimeoutSample.html" />
     <Content Include="miscellanous.txt" />
@@ -130,7 +132,7 @@
     <Content Include="DemoApp\app\js\app.js" />
     <Content Include="DemoApp\app\js\controllers\EditEventController.js" />
     <Content Include="DemoApp\app\js\controllers\EventController.js" />
-    <Content Include="DemoApp\app\js\directives.js" />
+    <Content Include="DemoApp\app\js\directives\mySample.js" />
     <Content Include="DemoApp\app\js\filters.js" />
     <Content Include="DemoApp\app\js\services\EventData.js" />
     <Content Include="DemoApp\app\lib\angular\angular-resource.js" />
