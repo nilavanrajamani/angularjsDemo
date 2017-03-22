@@ -27,6 +27,11 @@ eventsApp = eventsApp.config(function ($routeProvider, $locationProvider) {
             }
         }
     });
+    $routeProvider.when('/sampleDirective',
+    {
+        templateUrl: 'templates/SampleDirective.html',
+        controller: 'SampleDirectiveController'
+    });
     $routeProvider.otherwise({ redirectTo: '/events' });
     $locationProvider.html5Mode(true);
 });
