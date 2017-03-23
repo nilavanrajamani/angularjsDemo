@@ -82,6 +82,7 @@
     <Content Include="DemoApp\app\js\controllers\MainMenuController.js" />
     <Content Include="DemoApp\app\js\controllers\SampleDirectiveController.js" />
     <Content Include="DemoApp\app\js\controllers\TimeoutSampleController.js" />
+    <Content Include="DemoApp\app\js\directives\datekeys.js" />
     <Content Include="DemoApp\app\js\directives\upvote.js" />
     <Content Include="DemoApp\app\js\directives\eventThumbnail.js" />
     <Content Include="DemoApp\app\js\GravatarUrlBuilder.js" />
