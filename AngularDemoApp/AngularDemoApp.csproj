@@ -84,8 +84,10 @@
     <Content Include="DemoApp\app\js\controllers\SampleDirectiveController.js" />
     <Content Include="DemoApp\app\js\controllers\TimeoutSampleController.js" />
     <Content Include="DemoApp\app\js\directives\datekeys.js" />
+    <Content Include="DemoApp\app\js\directives\datepicker.js" />
     <Content Include="DemoApp\app\js\directives\gravator.js" />
     <Content Include="DemoApp\app\js\directives\greeting.js" />
+    <Content Include="DemoApp\app\js\directives\repeatx.js" />
     <Content Include="DemoApp\app\js\directives\upvote.js" />
     <Content Include="DemoApp\app\js\directives\eventThumbnail.js" />
     <Content Include="DemoApp\app\js\services\ExceptionHandler.js" />
@@ -93,6 +95,7 @@
     <Content Include="DemoApp\app\lib\angular\angular-cookies.js" />
     <Content Include="DemoApp\app\lib\angular\angular-locale_es.js" />
     <Content Include="DemoApp\app\LocaleSample.html" />
+    <Content Include="DemoApp\app\js\directives\collapsible.js" />
     <Content Include="DemoApp\app\templates\directives\EventThumbnail.html" />
     <Content Include="DemoApp\app\templates\directives\upvote.html" />
     <Content Include="DemoApp\app\templates\SampleDirective.html" />
