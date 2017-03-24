@@ -67,6 +67,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="DemoApp\app\CookieStoreSample.html" />
+    <Content Include="DemoApp\app\DirectiveControllerSample.html" />
     <Content Include="DemoApp\app\FilterSample.html" />
     <Content Include="DemoApp\app\index.html" />
     <Content Include="DemoApp\app\js\controllers\CookieStoreSampleController.js" />
@@ -83,9 +84,10 @@
     <Content Include="DemoApp\app\js\controllers\SampleDirectiveController.js" />
     <Content Include="DemoApp\app\js\controllers\TimeoutSampleController.js" />
     <Content Include="DemoApp\app\js\directives\datekeys.js" />
+    <Content Include="DemoApp\app\js\directives\gravator.js" />
+    <Content Include="DemoApp\app\js\directives\greeting.js" />
     <Content Include="DemoApp\app\js\directives\upvote.js" />
     <Content Include="DemoApp\app\js\directives\eventThumbnail.js" />
-    <Content Include="DemoApp\app\js\GravatarUrlBuilder.js" />
     <Content Include="DemoApp\app\js\services\ExceptionHandler.js" />
     <Content Include="DemoApp\app\js\services\GravatarUrlBuilder.js" />
     <Content Include="DemoApp\app\lib\angular\angular-cookies.js" />
